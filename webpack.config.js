@@ -7,7 +7,7 @@ module.exports = {
   mode: "development",
   devtool: "cheap-module-eval-source-map",
   entry: {
-    main: path.resolve(process.cwd(), "src", "main.js")
+    main: path.resolve(process.cwd(), "src", "main.ts")
   },
   output: {
     path: path.resolve(process.cwd(), "dist"),
